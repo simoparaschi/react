@@ -144,7 +144,7 @@ const rule: Rule.RuleModule = {
      * memoization (i.e. deleted all manual memo) and needs compilation success
      * signals for perf debugging.
      */
-    let __unstable_donotuse_reportAllBailouts: boolean = false;
+    let __unstable_donotuse_reportAllBailouts = false;
     if (
       userOpts.__unstable_donotuse_reportAllBailouts != null &&
       typeof userOpts.__unstable_donotuse_reportAllBailouts === 'boolean'
